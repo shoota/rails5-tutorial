@@ -1,6 +1,7 @@
 # rails5-tutorial
 もういっかい勉強しておこうね、そうしようね
 
+## [summary](https://github.com/shoota/rails5-tutorial/blob/summary/index.md)
 
 ## ref
 

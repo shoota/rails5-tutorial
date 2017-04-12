@@ -1,11 +1,12 @@
 # rails5-tutorial
 もういっかい勉強しておこうね、そうしようね
 
-## [summary](https://github.com/shoota/rails5-tutorial/blob/summary/index.md)
+## in/out
 
-## ref
+- in:  [Rails Tutorial](https://railstutorial.jp/chapters/beginning?version=5.0)
+- out: [summary](https://github.com/shoota/rails5-tutorial/blob/summary/index.md)
 
-- [Rails Tutorial](https://railstutorial.jp/chapters/beginning?version=5.0)
+
 
 ## rule
 

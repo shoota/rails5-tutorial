@@ -3,8 +3,13 @@
 
 ## in/out
 
-- in:  [Rails Tutorial](https://railstutorial.jp/chapters/beginning?version=5.0)
-- out: [Study log](/index.md)
+- in
+  - [Rails Tutorial](https://railstutorial.jp/chapters/beginning?version=5.0)
+- out
+  - [Study log](/index.md)
+  - [hello_app](https://github.com/shoota/rails5-tutorial-hello_app)
+
+
 
 
 

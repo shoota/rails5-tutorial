@@ -36,3 +36,34 @@ ___実際のソースは[このリポジトリ](https://github.com/shoota/rails5
   - `gem 'uglifier', '>= 1.3.0'` ：1.3.0以上
   - `gem 'coffee-rails', '~> 4.0.0'`：4.0.xの最新
 - Gemfileを編集して`bundle install`
+  - `sqlite3`を`:development :test`のみに移動
+- `bundle install`したときに`bundle update`してね、ってエラーになることもあります
+
+bundle update促された
+
+
+```
+Bundler could not find compatible versions for gem "railties":
+  In snapshot (Gemfile.lock):
+    railties (= 5.0.2)
+
+  In Gemfile:
+    coffee-rails (= 4.2.1) was resolved to 4.2.1, which depends on
+      railties (< 5.2.x, >= 4.0.0)
+
+    jquery-rails (= 4.1.1) was resolved to 4.1.1, which depends on
+      railties (>= 4.2.0)
+
+    rails (= 5.0.0.1) was resolved to 5.0.0.1, which depends on
+      railties (= 5.0.0.1)
+
+    sass-rails (= 5.0.6) was resolved to 5.0.6, which depends on
+      railties (< 6, >= 4.0.0)
+
+    web-console (= 3.1.1) was resolved to 3.1.1, which depends on
+      railties (>= 4.2)
+
+Running `bundle update` will rebuild your snapshot from scratch, using only
+the gems in your Gemfile, which may resolve the conflict.
+
+```

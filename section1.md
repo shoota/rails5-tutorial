@@ -23,6 +23,8 @@
   - `rails _5.0.0.1 new hello_app`
 - `rails new`すると`bundle install`が自動実行される
 - rails tutorial用にgemのバージョンを固定する
+- MVCの一般概念（読み飛ばして良い）
+
 
 ___実際のソースは[このリポジトリ](https://github.com/shoota/rails5-tutorial-hello_app)___
 

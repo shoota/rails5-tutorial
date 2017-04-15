@@ -25,7 +25,6 @@
 - rails tutorial用にgemのバージョンを固定する
 - MVCの一般概念（読み飛ばして良い）
 
-
 ___実際のソースは[このリポジトリ](https://github.com/shoota/rails5-tutorial-hello_app)___
 
 ### bundler
@@ -43,6 +42,7 @@ ___実際のソースは[このリポジトリ](https://github.com/shoota/rails5
 
 bundle update促された
 
+:heavy_check_mark:　[commit](https://github.com/shoota/rails5-tutorial-hello_app/commit/a3cc79ea97c429cca3caa00a3fc5ad9a49a0ff58)
 
 ```
 Bundler could not find compatible versions for gem "railties":
@@ -69,3 +69,13 @@ Running `bundle update` will rebuild your snapshot from scratch, using only
 the gems in your Gemfile, which may resolve the conflict.
 
 ```
+
+### HelloWorld
+
+- `application_controller.rb`にアクションを追加
+- `config/routes.rb`にrootルーティングを追加
+
+ルーティングの詳細は[公式ドキュメント](https://railsguides.jp/routing.html)で一度確認しておく。
+
+:heavy_check_mark: [commit](https://railsguides.jp/routing.html)
+

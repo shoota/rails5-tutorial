@@ -119,3 +119,7 @@ remote.heroku.fetch=+refs/heads/*:refs/remotes/heroku/*
 
 https://protected-dawn-83165.herokuapp.com/
 
+
+# 1.6 最後に
+
+その他メタ情報の紹介。割愛。

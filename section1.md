@@ -77,5 +77,24 @@ the gems in your Gemfile, which may resolve the conflict.
 
 ルーティングの詳細は[公式ドキュメント](https://railsguides.jp/routing.html)で一度確認しておく。
 
-:heavy_check_mark: [commit](https://railsguides.jp/routing.html)
+:heavy_check_mark: [commit](https://github.com/shoota/rails5-tutorial-hello_app/commit/406657b9d01fd99faa7c415536d939126885d437)
+
+
+# 1.4 Gitによるバージョン管理
+
+割愛
+
+## 要点
+
+- git便利、gitすごい
+
+
+# 1.5 デプロイする
+
+## 要点
+
+- herokuにデプロイする
+- Gemfileのproductionに`pg`を設定、`bundle install --without production`でGemfile.lockを更新しておく
+
+:heavy_check_mark: [commit](https://github.com/shoota/rails5-tutorial-hello_app/commit/a3b725e10d0cd210ed20f0301e70e1f7aa7fa96b)
 

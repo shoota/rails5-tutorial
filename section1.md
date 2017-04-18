@@ -98,3 +98,24 @@ the gems in your Gemfile, which may resolve the conflict.
 
 :heavy_check_mark: [commit](https://github.com/shoota/rails5-tutorial-hello_app/commit/a3b725e10d0cd210ed20f0301e70e1f7aa7fa96b)
 
+### デプロイした
+
+```
+$ heroku login
+$ heroku keys:add
+$ 
+$ heroku create
+$ git push heroku master
+$ heroku open 
+```
+
+heroku用のリモートが追加されているのが確認できる(\( ⁰⊖⁰)/)
+
+```
+$ git config --list | grep heroku
+remote.heroku.url=https://git.heroku.com/protected-dawn-83165.git
+remote.heroku.fetch=+refs/heads/*:refs/remotes/heroku/*
+```
+
+https://protected-dawn-83165.herokuapp.com/
+

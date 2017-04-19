@@ -34,6 +34,13 @@ $ rails -v
 Rails 5.0.0.1
 ```
 
+### section2からrailsバージョンを上げている
+```
+$ rails -v
+Rails 5.0.1
+```
+
+
 ## env setup
 
 ```

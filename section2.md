@@ -27,12 +27,9 @@
 - `rails db:migragte`
   - rails5から`rake`は`rails`に変わりました。
 
----
 
- ### :-1:
+:-1: :-1: :-1: :-1: :-1: :-1: :-1: 
  
  実際にやると、`/users`にアクセスしたときに`ArgumentError: key must be 32 bytes`というエラーがでる。
  rails 5.0.0.1とruby 2.4.x系が噛み合わないらしい。
  Gemfileのrailsバージョンを`rails 5.0.1`に変更して解決。今後は`5.0.1`ですすめる。
-
----

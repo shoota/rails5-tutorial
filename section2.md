@@ -42,3 +42,11 @@
 
 ## 要点
 
+- validation
+  - modelに記載する `validates :<name>, validate_method{args: value}`
+  - 最大桁数 -> length{maximum: xxx}
+  - 必須入力 -> presence: true
+- relation (関係の記述で単数形、複数形に注目)
+  - `users.rb` -> `has_many :microposts`
+  - `microposts.rb` -> `belongs_to :user`
+- rails console　（irbです）

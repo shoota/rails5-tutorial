@@ -26,10 +26,19 @@
 - `rails g scaffold <モデル単数> [<name>:<type>...]`
 - `rails db:migragte`
   - rails5から`rake`は`rails`に変わりました。
-
+- RESTとURL、HTTPメソッドの話。割愛。
+- scaffoldで`config/routes.rb`にresourceが追加されていることを確認。
+- controllerで宣言した変数`@users`はviewに渡される。(endのあとで)
+- GETのメソッドではテンプレートを指定していない。メソッド名(REST)がそのまま名前として解決されている。
 
 :-1: :-1: :-1: :-1: :-1: :-1: :-1: 
  
  実際にやると、`/users`にアクセスしたときに`ArgumentError: key must be 32 bytes`というエラーがでる。
  rails 5.0.0.1とruby 2.4.x系が噛み合わないらしい。
  Gemfileのrailsバージョンを`rails 5.0.1`に変更して解決。今後は`5.0.1`ですすめる。
+
+
+# 2.3 Micropostsリソース
+
+## 要点
+

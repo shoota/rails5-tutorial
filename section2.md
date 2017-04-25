@@ -49,6 +49,10 @@
 - relation (関係の記述で単数形、複数形に注目)
   - `users.rb` -> `has_many :microposts`
   - `microposts.rb` -> `belongs_to :user`
+
+:heavy_check_mark:　[commit](https://github.com/shoota/toy_app/commit/f62fc93625fe35fa7d80bde20476cb5bff25a6a0)
+
+
 - rails console　（irbです）
 - heroku deploy
   - `git push heroku`

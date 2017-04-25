@@ -50,3 +50,25 @@
   - `users.rb` -> `has_many :microposts`
   - `microposts.rb` -> `belongs_to :user`
 - rails console　（irbです）
+- heroku deploy
+  - `git push heroku`
+  - `heroku run rails db:migrate`
+ 
+ 
+ #### こんな感じのDB作成ログがでる
+ 
+ ```
+$ heroku run rails db:migrate
+Running rails db:migrate on ⬢ blooming-gorge-66512... up, run.5522 (Free)
+D, [2017-04-25T13:40:33.923961 #4] DEBUG -- :    (48.5ms)  CREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)
+D, [2017-04-25T13:40:33.941159 #4] DEBUG -- :    (12.7ms)  CREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)
+D, [2017-04-25T13:40:33.942719 #4] DEBUG -- :    (0.6ms)  SELECT pg_try_advisory_lock(3490353328371703395);
+D, [2017-04-25T13:40:33.956032 #4] DEBUG -- :   ActiveRecord::SchemaMigration Load (0.8ms)  SELECT "schema_migrations".* FROM "schema_migrations"
+I, [2017-04-25T13:40:33.971717 #4]  INFO -- : Migrating to CreateUsers (20170419135859)
+D, [2017-04-25T13:40:33.973971 #4] DEBUG -- :    (0.5ms)  BEGIN
+== 20170419135859 CreateUsers: migrating ======================================
+-- create_table(:users)
+D, [2017-04-25T13:40:33.987051 #4] DEBUG -- :    (11.9ms)  CREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)
+   -> 0.0130s
+== 20170419135859 CreateUsers: migrated (0.
+ ```

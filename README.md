@@ -8,6 +8,7 @@
 - out
   - [Study log](/index.md)
   - [hello_app](https://github.com/shoota/rails5-tutorial-hello_app)
+  - [toys app](https://github.com/shoota/toy_app)
 
 
 

@@ -23,3 +23,10 @@
 
 
 # 3.3 テストから始める
+
+- http statusをチェックするテストを先にかいて、TDDをやってみる。
+  - まずテストを動かしてみる(green)
+  - テストを追加(red)
+  - `config/route.rb` 
+  - `controller#about`
+  - `erb` (green)

@@ -53,9 +53,3 @@
 - erbをつかった
 - TDDをやった
 - DRYにしてみた
-
-
-
-
-- `rails generate` <-> `rails destroy`。
-- `rails generate` <-> `rails destroy`

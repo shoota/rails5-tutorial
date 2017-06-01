@@ -17,5 +17,10 @@
 
 
 ## [第3章ほぼ静的なページの作成](/section3.md)
+- controller
+- route
+- view / erb
+- tdd / minitest
+- DRY
 
 
